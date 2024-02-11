@@ -1,39 +1,48 @@
 # Buttons
 
-import Flex from '../../../components/flex'
-import Button from '../../../components/examples/button'
+Description del boton
+
+import Flex from "../../../components/flex";
+import Button from "../../../components/examples/button";
 
 {' '}
 
-<h2 className="text-4xl font-bold mt-8">Flilled Buttons</h2>
+#### Button
 
 <Flex className="flex justify-center items-center gap-x-8 mt-12">
   <Button className="bg-purple-500 shadow px-6 py-2 rounded-xl text-white">
     Outline
   </Button>
-  <Button className="bg-red-500 shadow-md px-6 py-2 rounded-xl text-white">
-    Example
-  </Button>
 </Flex>
 
-##### HTML
-
-```html
+```jsx
+/* -- HTML -- */
 <button class="bg-purple-500 shadow px-6 py-2 rounded-xl text-white">
   Outline
 </button>
 
-<button class="bg-red-500 shadow px-6 py-2 rounded-xl text-white">
-  Example
+/* -- JSX -- */
+<button className="bg-purple-500 shadow px-6 py-2 rounded-xl text-white">
+  Outline
 </button>
 ```
 
-##### JSX
+#### Button Variants
+
+<Flex className="flex justify-center items-center gap-x-8 mt-12">
+  <Button className="border border-gray-500 rounded-2xl py-2 px-6">
+    Outline example
+  </Button>
+</Flex>
 
 ```jsx
-<button className="bg-purple-500 shadow px-6 py-2 rounded-xl text-white">Outline</button>
+/* -- HTML -- */
+<button class="border border-gray-500 rounded-2xl py-2 px-6">
+  Outline example
+</button>
 
-<button className="bg-red-500 shadow px-6 py-2 rounded-xl text-white">Example</button>
+/* -- JSX -- */
+<button className="border border-gray-500 rounded-2xl py-2 px-6">
+  Outline example
+</button>
 ```
-
-<h2 className="text-4xl font-bold mt-8">Outlined buttons</h2>
