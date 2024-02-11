@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@castrogarciajs/material-design": "0.1.1",
+    "@diverse-ui/material-design": "0.1.1",
     "next": "14.1.0",
     "nextra": "2.13.3",
     "nextra-theme-docs": "2.13.3",
