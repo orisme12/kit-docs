@@ -1,4 +1,8 @@
 {
+  "-- Getting Started": {
+    "type": "separator",
+    "title": "Getting Started"
+  },
   "index": "Introduction",
   "installation": "",
   "-- Integration Guide": {
@@ -16,7 +20,11 @@
     "type": "separator",
     "title": "Customization"
   },
-  "components": {
+  "-- Compoenents": {
+    "type": "separator",
     "title": "Components"
+  },
+  "components": {
+    "title": "Design Sytems"
   }
 }
