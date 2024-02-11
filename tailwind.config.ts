@@ -1,4 +1,4 @@
-import withKIT from '@castrogarciajs/material'
+import withKIT from '@castrogarciajs/material-design'
 
 export default withKIT({
   content: [
