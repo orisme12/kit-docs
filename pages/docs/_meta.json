@@ -1,0 +1,22 @@
+{
+  "index": "Introduction",
+  "installation": "",
+  "-- Integration Guide": {
+    "type": "separator",
+    "title": "Integration Guide"
+  },
+  "integrations": {
+    "title": "Technologies"
+  },
+  "-- Themes": {
+    "type": "separator",
+    "title": "Themes"
+  },
+  "customization": {
+    "type": "separator",
+    "title": "Customization"
+  },
+  "components": {
+    "title": "Components"
+  }
+}
